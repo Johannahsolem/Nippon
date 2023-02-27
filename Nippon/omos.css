@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.sideoverskrift{
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #E1DBD2;
+}
+
+h1, p{
+    color:#7A3333;
+    font-family: "Roboto";
+}
+
+p{
+    line-height: 25px;
+}
+
+/*RESPONSIV*/
+/*MOBIL*/
+@media screen and (max-width:910px) {
+    .sideoverskrift{
+        margin-bottom: 15px;
+    }
+
+    .topbillede img{
+        width: 100%;
+    }
+    
+    .omostekst{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position:relative;
+        text-align: center;
+        width:100%;
+        padding: 20px;
+    }
+}
+
+/*LAPTOP*/
+@media screen and (min-width:910px) {
+    .navlaptop{
+        flex-direction: column;
+    }
+
+    .topbillede img{
+        width: 100%;
+    }
+    
+    .sideoverskrift{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        font-size: 18pt;
+    }
+    
+    .omostekst{
+        text-align: center;
+        margin-left: 250px;
+        margin-right:250px;
+        margin-top: 30px;
+    }
+}
