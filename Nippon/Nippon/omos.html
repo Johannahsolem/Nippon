@@ -59,6 +59,23 @@
             </p>
         </section>
 
+        <!--javascript - pop up chat-->
+
+
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Live chat</h1>
+
+    <label for="msg"><b>Spørg mig - få svar indenfor 5 min</b></label>
+    <textarea placeholder="Skriv besked.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+  </form>
+</div>
+
     </main>    
     <!--opsætning af footer-->
     
@@ -89,7 +106,7 @@
 
             <p>KONTAKT</p>
             <br>
-            <p>MÅLTIDERNIPPON.DK</p>
+            <p>MÅLTIDER@NIPPON.DK</p>
             <br>
             <p>TLF: +45 3356 8609</p>
          
