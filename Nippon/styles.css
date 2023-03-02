@@ -42,7 +42,7 @@ header{
     height: 150px;
 
     background-color: #dedad2;
-    border-bottom: 2px solid #782f2f;
+   /* border-bottom: 2px solid #782f2f;*/
     
     
 }
@@ -171,7 +171,7 @@ footer {
     text-align: left;
     font-size: 18px;
     letter-spacing: 2px;
-    color:black;
+    color:#782f2f;
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -203,6 +203,7 @@ footer {
    
 
     background-color: #dedad2;
+    border-top: 1px solid #782f2f;
 }
 
 .forsidestart h1{
@@ -227,7 +228,7 @@ footer {
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    border: none;
+    border: 1px;
     border-radius: 12px;
     
 
@@ -235,8 +236,18 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
   }
 
+  .forsidestart button:hover{
+    background-color: #dedad2;
+    color: #782f2f;
+    transform: scale(1.1);
+    border-style:solid;
+    border-color:#782f2f ;
+
+  }
 
 .forsidestart img{
     border-radius: 12px;
@@ -329,7 +340,7 @@ footer {
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    border: none;
+    border: 1px;
     border-radius: 12px;
     
 
@@ -337,6 +348,18 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+
+  .måltidskassebox button:hover{
+    background-color: #dedad2;
+    color: #782f2f;
+    transform: scale(1.1);
+    border-style:solid;
+    border-color:#782f2f ;
+
   }
 
 
@@ -373,7 +396,7 @@ footer {
     font-size: 16px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
-    border: none;
+    border: 1px;
     border-radius: 12px;
     
 
@@ -381,6 +404,17 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+  .mttekst button:hover{
+    background-color: #dedad2;
+    color: #782f2f;
+    transform: scale(1.1);
+    border-style:solid;
+    border-color:#782f2f ;
+
   }
 
 
