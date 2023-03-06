@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
+    <title>Nippon</title>
+</head>
+<body>
+
+    <div id="banner">
+        <p> TILMELD DIG VORES NYHEDSBREV OG SPAR 15% PÅ DIN FØRSTE ORDRE</p>
+    </div>
+
+    <header>
+
+       
+
+        <nav id="navMobile">
+    
+        <a href="burger.html"><img src="images/burger.png" alt="Burgermenu"></a>
+    
+        </nav>
+    
+            
+            <nav id="navLaptop">
+                <a href="X">MÅLTIDSKASSER</a>
+                <a href="X">MILJØ</a>
+
+                <div id="Logo">  
+
+                    <a href="index.html"><img src="images/jfjf.png" alt="Nippon logo"></a>
+            
+                </div>  
+
+                <a href="X">OM NIPPON</a>
+                <a href="x">KONTAKT</a>
+    
+                
+            </nav>
+           
+    
+     
+    
+    
+        </header>
+    
+    <main>
+        <!--Leveringstid/Java-->
+
+        <section class="levering">
+
+            <p id="demo"></p>
+
+            <h1>Bestil inden i dag kl. 12 og få leveret din måltidskasse i morgen</h1>
+
+        </section>
+
+        <section>
+            <h1 class="overskriftmåltidskasser">MÅLTIDSKASSER</h1>
+
+            <h3 class="tekstomkasserne">Med Nippon får du måltidskasser med friske råvarer <br>
+            og spændende opskrifter leveret til døren. Så kan <br>
+            du lave velsmagende japanske retter på ingen tid. </h3>
+        </section>
+
+       <!--javascript - pop up chat-->
+
+
+        <button class="open-button" onclick="openForm()">Chat</button>
+
+        <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Live chat</h1>
+
+                <label for="msg"><b>Spørg mig - få svar indenfor 5 min</b></label>
+                <textarea placeholder="Skriv besked.." name="msg" required></textarea>
+
+                <button type="submit" class="btn">Send</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+            </form>
+        </div>
+
+    </main>
+    
+    <div class="container1">
+        <div class="img-familiekasse">
+            <img src="images/ramenredigeret.jpg" alt="familiekasse">
+
+            <p>FAMILIE <br> KASSEN</p>
+        </div>
+
+        <div class="text-familiekasse">
+            <h1>FAMILIE-KASSEN</h1>
+            <h3>Alle familiens favoritretter samlet i én kasse.<br>
+                Lav tilberedningstid og egnet til både børn <br>
+                og voksne
+                </h3>
+            
+            <a href="#"><button id="knap" type="læs mere">MERE OM DENNE KASSE</button></a>
+        </div>
+
+        
+    </div>
+
+    <div class="container2">
+        <div class="img-datenightkasse">
+            <img src="images/dumplingsredigeret.jpg" alt="datenightkasse">
+
+            <p>DATE NIGHT <br> KASSEN</p>
+        </div>
+
+        <div class="text-datenightkasse">
+            <h1>DATE NIGHT-KASSEN</h1>
+            <h3>Kassen der er velegnet og tilpasset til den<br>
+                perfekte datenight, når der skal hygges lidt <br>
+                ekstra.
+                </h3>
+            
+            <a href="#"><button id="knap" type="læs mere">MERE OM DENNE KASSE</button></a>
+        </div>
+
+        
+    </div>
+
+    <div class="container3">
+        <div class="img-hverdagskasse">
+            <img src="images/forårsrullerredigeret.jpg" alt="hverdagskasse">
+
+            <p>HVERDAGS <br> KASSEN</p>
+        </div>
+
+        <div class="text-hverdagskasse">
+            <h1>HVERDAGS-KASSEN</h1>
+            <h3>Til den travle hverdag, hvor der ikke er alverdens<br>
+                tid til at kokkerer i køkkenet. Alle retter kan til-<br>
+                beredes på 20-30 minutter.<h3>
+            
+            <a href="#"><button id="knap" type="læs mere">MERE OM DENNE KASSE</button></a>
+        </div>
+
+        
+    </div>
+
+    
+    <footer>
+    
+        <section class="flexboxfooter">
+    
+            <div id="billedfooter">
+        
+                <a href="x"><img src="images/pynt.PNG" alt="Pynt"></a>
+        
+            </div>
+    
+    
+        
+            <div class="tekst">
+    
+                <p>PRIVATLIVSPOLITIK</p>
+                <br>
+                <P>VILKÅR OG BETINGELSER</P>
+                <br>
+                <p>LEVERING</p>
+               
+           </div>
+        
+    
+           <div class="tekst">
+    
+                <p>KONTAKT</p>
+                <br>
+                <p>MÅLTIDER@NIPPON.DK</p>
+                <br>
+                <p>TLF: +45 3356 8609</p>
+             
+           </div>
+        
+        
+        
+        </section>
+    
+    
+    
+    </footer>   
+</body>
+</html>
