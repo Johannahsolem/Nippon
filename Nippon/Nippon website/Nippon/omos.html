@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Om os</title>
+
+    <link rel="stylesheet" href="omos.css">
+    <script src="script.js" defer></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+    <meta name="description"
+    content="Nippon er et af de nyeste måltidskasse brands på markedet - og vi ville jo også mene det bedste. Vil du høre mere om os og vores historie, så læs med her.">
+
+    <link rel="icon" type="image/x-icon" href="images/x-icon.ico">
+</head>
+
+<body>
+    <div id="banner">
+        <p> TILMELD DIG VORES NYHEDSBREV OG SPAR 15% PÅ DIN FØRSTE ORDRE</p>
+    </div>
+
+    <header>
+        <nav id="navMobile">
+    
+        <a href="burger.html"><img src="images/burger.png" alt="Burgermenu"></a>
+    
+        </nav>
+            
+            <nav id="navLaptop">
+                <a href="X">MÅLTIDSKASSER</a>
+                <a href="X">MILJØ</a>
+
+                <div id="Logo">  
+
+                    <a href="index.html"><img src="images/jfjf.png" alt="Nippon logo"></a>
+            
+                </div>  
+
+                <a href="X">OM NIPPON</a>
+                <a href="x">KONTAKT</a>
+            </nav>
+        </header>
+
+    <main>
+        <!--TOP BILLEDE-->
+        <div class="topbillede"><img src="images/omostopbillede.jpg" alt="topbillede"></div>
+
+        <!--OVERSKRIFT OG TEKST-->
+        <section class="omostekst">
+            <div class="sideoverskrift">
+                <h1>OM OS</h1>
+            </div>
+            <p>Nippon startede som en lille ide i 2023 hos en gruppe studerende, som så et hul i markedet. De mange forskellige slags måltidskasser sprang frem, men behovet for noget helt unikt og specielt manglede stadig. Med fokus på bæredygtighed og økologi bragede Nippon hurtigt frem. Moderniteten og eksklusiviteten dragede folk til sig, og med de mange forskellige smagsoplevelser blev Nippon et hurtigt voksende brand.
+            </p>
+        </section>
+
+<!--javascript - pop up chat-->
+<button class="open-button" onclick="openForm()">Chat</button>
+<div class="chat-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Live chat</h1>
+
+    <label for="msg"><b>Spørg mig - få svar indenfor 5 min</b></label>
+    <textarea placeholder="Skriv besked.." name="msg" required></textarea>
+
+    <button type="submit" class="btn">Send</button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Luk</button>
+  </form>
+</div>
+</main>  
+
+
+<!--opsætning af footer-->    
+<footer>
+    <section class="flexboxfooter">
+
+        <div id="billedfooter">
+    
+            <a href="x"><img src="images/pynt.PNG" alt="Pynt"></a>
+    
+        </div>
+
+        <div class="tekst">
+            <p>PRIVATLIVSPOLITIK</p>
+            <br>
+            <P>VILKÅR OG BETINGELSER</P>
+            <br>
+            <p>LEVERING</p>
+       </div>
+    
+       <div class="tekst">
+            <p>KONTAKT</p>
+            <br>
+            <p>MÅLTIDER@NIPPON.DK</p>
+            <br>
+            <p>TLF: +45 3356 8609</p>
+       </div>
+    </section>
+</footer>
+</body>
+</html>
